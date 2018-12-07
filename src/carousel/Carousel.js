@@ -1218,6 +1218,7 @@ export default class Carousel extends Component {
             scrollsToTop: false,
             removeClippedSubviews: true,
             inverted: this._needsRTLAdaptations(),
+            nestedScrollEnabled: true,
             // renderToHardwareTextureAndroid: true,
             ...specificProps
         };
